@@ -1,0 +1,27 @@
+Step#01:
+install node.js
+Step#02:
+open terminal in vs code and write:
+    npm init -y
+    npm install -D tailwindcss postcss autoprefixer vite
+    npx tailwindcss init -postcss
+
+Step#03:
+create a css file "input.css",write this:
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+add this file into your html file.
+
+Step#04:
+in tailwind.config.js file replace: 
+    content[], with content["*"]
+
+Step#05:
+    add "start" : "vite" in scripts in your package.json
+
+Step#06:
+then run this command:
+    npm run start 
